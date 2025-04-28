@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "AtoZPrompt.ai - Prompt Management Platform",
+  title: "atozprompt.ai",
   description:
     "Store, evaluate, and version control your AI prompts with AtoZPrompt.ai",
 };
@@ -9,6 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logo.png" />
+      </head>
       <body className="min-h-screen bg-gray-50">
         {/* Header with navigation */}
         <header className="w-full bg-white shadow-sm">
